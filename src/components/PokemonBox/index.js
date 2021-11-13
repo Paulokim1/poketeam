@@ -7,7 +7,7 @@ export default function PokemonBox(props) {
 
   const deletePokemon = (event) => {
     event.preventDefault();
-    axios.post(`http://localhost:8000/api/delete/${props.id}`)
+    axios.post(`https://sleepy-cove-78935.herokuapp.com/delete/${props.id}`)
   }
 
   return (

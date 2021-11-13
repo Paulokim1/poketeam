@@ -26,7 +26,7 @@ export default function Home(props) {
     event.preventDefault();
     if (pokemon){
       if (pokemonType){
-        axios.post('http://localhost:8000/api/notes/', {'title':pokemon,'content':pokemonType, 'img':sprite})
+        axios.post('https://sleepy-cove-78935.herokuapp.com/', {'title':pokemon,'content':pokemonType, 'img':sprite})
       }
     }
   }

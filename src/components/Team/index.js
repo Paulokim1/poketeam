@@ -12,7 +12,7 @@ export default function Team(props) {
 
   const loadData = () => {
     axios
-      .get("http://localhost:8000/api/notes/")
+      .get("https://sleepy-cove-78935.herokuapp.com/")
       .then((res) => setPokemons(res.data));
   }
 
