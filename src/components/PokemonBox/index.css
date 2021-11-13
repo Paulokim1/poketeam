@@ -1,0 +1,40 @@
+.pokemonBoxContainer{
+    display:flex;
+    flex-direction: column;
+
+    border: 0.1rem solid black;
+    max-width: 22rem;
+    height: 8rem;
+}
+
+.headerPokemonBox{
+    display: flex;
+    flex-direction: row-reverse;
+    border-bottom: 0.1rem solid black;
+    
+}
+
+.delete{
+    background-color: red;
+    margin: 0.1rem;
+}
+
+.bodyPokemonBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.imagemPokemon{
+    width: 6rem;
+    height: 6rem;
+}
+
+.infos{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
