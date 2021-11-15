@@ -20,7 +20,7 @@ export default function PokemonBox(props) {
         <img className="imagemPokemon" src={props.src_img}></img>
         <div className='infos'>
           <b>Name: {props.name}</b>
-          <b>Type: {props.type}</b>
+          <b>Main Type: {props.type}</b>
         </div>
       </div>
       

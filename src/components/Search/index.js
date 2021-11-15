@@ -4,7 +4,7 @@ import axios from "axios"
 import { useState, useEffect } from "react";
 
 
-export default function Home(props) {
+export default function Search(props) {
 
   const [pokemon, setPokemon] = useState("")
   const [pokemonType, setPokemonType] = useState("")
@@ -36,7 +36,8 @@ export default function Home(props) {
   }
 
   return (
-    <div className = 'TeamsContainer'>
+    <div className = 'SearchContainer'>
+      <div className = 'Pesquisa'>
       <input
       className="form-card-title"
       type="text"
@@ -45,11 +46,14 @@ export default function Home(props) {
       value={searchPokemon}
       onChange={searchChanged}
       />
+      <div className='buttonContainer'>
       <button className="btn" onClick={findPokemon}>Search</button>
       <button className="btn" onClick={addPokemon}>Add</button>
+      </div>
+      </div>
 
       <div className="informacoes">
-        <div> Pokemon's type is: {pokemonType} </div>
+        <div> Pokemon's main type is: {pokemonType} </div>
         <img src = {`${sprite}`}></img>
       </div>
 

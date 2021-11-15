@@ -3,8 +3,11 @@
     flex-direction: column;
 
     border: 0.1rem solid black;
-    max-width: 22rem;
+    width: 20rem;
     height: 8rem;
+    margin: 1rem;
+    background-image: linear-gradient(to bottom right, #356abc, #ffcd00);
+    border-radius: 1rem;
 }
 
 .headerPokemonBox{
@@ -17,6 +20,7 @@
 .delete{
     background-color: red;
     margin: 0.1rem;
+    margin-right: 0.5rem;
 }
 
 .bodyPokemonBox{

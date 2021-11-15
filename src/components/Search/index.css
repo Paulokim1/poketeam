@@ -7,8 +7,8 @@
 }
 
 .btn{
-    width: 18rem;
-    height: 10rem;
+    width: 9rem;
+    height: 5rem;
     margin: 1rem;
 }
 
@@ -21,6 +21,9 @@
 
 .form-card-title{
     margin: 1rem;
+    width: 9rem;
+    height: 1rem;
+
 }
 
 .img{
@@ -54,19 +57,33 @@
 
 }
 
+.buttonContainer{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.Pesquisa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
 .TeamName{
     width: 20rem;
     margin: 1rem;
 }
 
-.TeamsContainer{
+.SearchContainer{
     display: flex;
     flex-wrap: wrap;
     border: 0.1rem solid black;
     border-radius: 2rem;
     justify-content: center;
     margin: 2rem;
-    background-color: gold;
+    background-color:red;
 }
 
 .Team1{

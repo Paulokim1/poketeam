@@ -25,7 +25,8 @@ export default function Team(props) {
   return (
     <div className = 'TeamsContainer'>
     <Search/>
-
+    <p1 className="Title">My Team:</p1>
+    <div className='pokemonTeam'>
     {pokemons ? pokemons.map(pokemon => (
       <PokemonBox 
       id={pokemon.id} 
@@ -34,6 +35,7 @@ export default function Team(props) {
       src_img = {pokemon.img}>
       </PokemonBox>
     )): null}
+    </div>
     
     </div>
   );
